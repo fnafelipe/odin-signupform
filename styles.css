@@ -92,8 +92,17 @@ input {
   border: 2px solid #e5e7eb;
 }
 
+input:focus {
+  outline: none;
+  border: 2px solid lightgray;
+}
+
 input:user-invalid {
   border: 2px solid red;
+}
+
+input:user-valid {
+  border: 2px solid #4a5d39;
 }
 
 .submit-section {
