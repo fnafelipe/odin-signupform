@@ -1,4 +1,36 @@
 @font-face {
-  font-family: Norsebold;
-  src: url('./norse/Norsebold.otf');
+  font-family: "Norsebold";
+  src: url("./norse-bold.otf");
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 35%;
+  background-image: url(./deer-and-mountain.avif);
+}
+
+.logo-container {
+  display: flex;
+  width: 100%;
+  height: 20%;
+  background-color: black;
+  opacity: 50%;
+  margin-top: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-image {
+  height: 80%;
+}
+
+.logo-text {
+  font-family: "Norsebold";
+  font-size: 90px;
+  color: white;
 }
