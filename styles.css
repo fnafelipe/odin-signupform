@@ -89,7 +89,11 @@ label {
 input {
   height: 30px;
   border-radius: 5px;
-  border: 1px solid #e5e7eb;
+  border: 2px solid #e5e7eb;
+}
+
+input:user-invalid {
+  border: 2px solid red;
 }
 
 .submit-section {
